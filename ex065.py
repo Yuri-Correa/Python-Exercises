@@ -1,0 +1,6 @@
+a = int(input())
+b = int(input())
+x = int(input())
+y = int(input())
+expressao = ((a+b**x)-(b**0.5)+((a+b)/(x-y)))
+print('Expressão: {:.2f}'.format(expressao))
